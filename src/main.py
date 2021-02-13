@@ -3,7 +3,7 @@ import pygame
 
 def main():
     pygame.init()
-    screen = pygame.
+    pygame.display.set_mode()
     clock = pygame.time.Clock()
     while True:
         for event in pygame.event.get():
