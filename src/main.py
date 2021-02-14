@@ -26,6 +26,10 @@ class Entity:
         self.components.insert(Component)
 
 
+class System:
+    def __init__(self) -> None:
+
+
 def main():
     pygame.init()
     screen = pygame.display.set_mode((960, 604))
