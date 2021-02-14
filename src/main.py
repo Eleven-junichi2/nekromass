@@ -28,6 +28,7 @@ class Entity:
 
 class System:
     def __init__(self) -> None:
+        pass
 
 
 def main():
