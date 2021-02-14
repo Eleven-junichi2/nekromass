@@ -18,9 +18,12 @@ class Component:
 
 
 class Entity:
+    entity_counter = 0  # This is going to use to set each entity's id.
+
     def __init__(self) -> None:
-        self.id = None
+        self.id = Entity.entity_counter
         self.components = []
+        Entity.entity_counter += 1
 
     def register(self, component: Component):
         self.components.insert(Component)
